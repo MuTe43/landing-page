@@ -10,10 +10,14 @@ body{
     padding: 20px 100px ;
     background-color: #1F2937;
 }
+a{
+    text-decoration: none;
+    color:inherit;
+}
 ul {
     list-style: none;
     display: flex;
-    gap: 18px;
+    gap: 15px;
 }
 li{
     font-size: 18px;
