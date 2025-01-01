@@ -34,13 +34,13 @@ li:nth-child(1){
     align-items: center;
     gap:250px;
 }
-.mid1 .secondary{
+.mid1 .secondary, .tt4{
     width: 400px;
     flex: 1;
     font-size: 18px;
     color: #E5E7EB;
 }
-.main{
+.main, .tt3{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -51,7 +51,7 @@ button{
     font-size: 15px;
     color: #E5E7EB;
     border-radius: 8px;
-    border-color: #3882F6;
+    border-color: white;
     height: 40px;
     width: 100px;
 }
@@ -61,13 +61,14 @@ button{
     height: 200px;
     text-align: center;
 }
-.mid2{
+.mid2, .mid4{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap:20px;
     flex-wrap: wrap;
+    padding:50px;
 }
  .c{
     display: flex;
@@ -77,7 +78,7 @@ button{
     align-items: center;
     max-width: 230px;
     height: 200px;
-     flex-wrap: wrap; 
+    flex-wrap: wrap; 
  }
 
 .container2{
@@ -93,7 +94,64 @@ button{
     height: 200px;
     flex: 1;
 }
+.text{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+}
 .text2{
-    /* max-width: 50px;
-    max-height: 10px; */
+    text-align: center;
+}
+.mid3{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height:230px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding:40px;
+    margin:-7px;
+    margin-top: 100px;
+    gap:15px;
+}
+.quote{
+    font-family: "light";
+    font-size: 36px;
+    color: #1F2937;
+    max-width: 850px;
+    flex:2;
+}
+.author{
+    margin-left: 750px;
+    flex:1;
+}
+
+.container3{
+    display: flex;
+    width: 500px;
+    background-color:#3882F6;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #3882F6;
+    padding: 50px 100px;
+    border-radius: 8px;
+    gap:8px;
+}
+
+.tt3{
+    font-size: 32px;
+    padding-bottom: 8px;
+}
+.tt4{
+    font-size: 15px;
+}
+
+.footer{
+    background-color: #1F2937;
+    margin:-8px;
+    padding:10px;
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
